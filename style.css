@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #6c6b6b;
@@ -9,12 +8,29 @@ a {
   text-decoration: none;
 }
 
+header, nav, h2, .main-visual, footer, a{
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
+
+.social i{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social{
+  position:absolute;
+  top: 22px;
+  right: 22px;
+}
+
 
 header.heading {
   font-size: 32px;
@@ -53,7 +69,7 @@ color: #fff;
 }
 
 .main-visual-name{
-  margin: 30px;
+  margin-top: 30px;
   color: #fff;
 }
 
@@ -124,7 +140,7 @@ main{
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin: 0.5px;
+  margin: 0 5px;
   color: #fff;
   background-color: #acabab;
   border-radius: 3px;
